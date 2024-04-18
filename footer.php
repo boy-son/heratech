@@ -5,7 +5,76 @@
  */
 
 ?>
+<style>
+   footer {
+            background-color: #11181f; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .site-footer__inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .site-footer__col-one {
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
 
+        .site-footer__col-one a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .site-footer__col-one a:hover {
+            text-decoration: underline;
+              }
+
+        .site-footer__col-two-three-group {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .site-footer__col-two,
+        .site-footer__col-three {
+            margin: 0 20px;
+        }
+        .nav-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .nav-list ul li a {
+            margin-bottom: 10px;
+            color: white;
+        }
+        .social-icons-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .social-icons-list li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-icons-list a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .credit {
+           text-align: center;
+           margin-top: 20px;
+        }
+
+        .credit p {
+          font-size: 14px;
+          color: #999;
+        }
+  
+</style>
 <footer id="colophon" class="site-footer">
     
 <div class="site-footer__inner container container--narrow">
