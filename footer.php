@@ -42,10 +42,7 @@
   </div>
 
   </div>
-
-
 </div>
-
 </div>
         <div class="credit">
             <p>&copy; <?php echo date('Y'); ?> Heratech</p>

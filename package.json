@@ -1,0 +1,26 @@
+{
+    "name": "heratech",
+    "version": "1.0.0",
+    "description": "Heratech Website Theme",
+    "main": "index.js",
+    "scripts": {
+      "test": "test",
+      "build": "wp-scripts build",
+      "start": "wp-scripts start",
+      "dev": "wp-scripts start",
+      "devFast": "wp-scripts start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/boy-son/heratech.git"
+    },
+    "author": "Branden Osondu",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/boy-son/heratech/issues"
+    },
+    "homepage": "https://github.com/boy-son/heratech#readme",
+    "dependencies": {
+      "@wordpress/scripts": "^27.6.0"
+    }
+  }
