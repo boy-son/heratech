@@ -63,7 +63,6 @@
         }
     </style>
 </head>
-<body>
     <header>
         <div class="banner">
             <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/banner.jpg') ?>);"></div>
