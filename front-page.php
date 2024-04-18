@@ -179,7 +179,7 @@
 </div>
 
 <h2 class="wp-block-heading has-text-align-center">Previous Works</h2>
-<div class="">
+<div class="has-text-align-center">
     <p>Gallery Here</p>
 </div>
 
