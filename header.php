@@ -74,6 +74,6 @@
         <nav class="header-nav">
             <a href="<?php echo site_url('/about-us'); ?>">About</a>
             <a href="<?php echo site_url('/services'); ?>">Services</a>
-            <a href="<?php echo site_url('/contact-us'); ?>">Contact</a>
+            <a href="<?php echo site_url('/contact'); ?>">Contact</a>
         </nav>
     </header>
