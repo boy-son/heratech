@@ -1,0 +1,61 @@
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+input[type='color'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='datetime'],
+input[type='datetime-local'],
+textarea,
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border-color: $gray;
+    border-radius: $b-radius;
+    border-style: solid;
+    border-width: $b-width;
+    box-sizing: border-box;
+    font-size: 1rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    width: 100%;
+
+    &:focus {
+        border-color: $brand-primary;
+    }
+}
+
+textarea {
+    min-height: 6rem;
+}
+
+label,
+legend {
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+// Media Query Break Points
+// Large Phones
+@media only screen and (min-width: $sm) {
+    // Add your styles here
+}
+
+// Tablets
+@media only screen and (min-width: $md) {
+    // Add your styles here
+}
+
+// Notebooks and Desktops
+@media only screen and (min-width: $lg) {
+    // Add your styles here
+}
